@@ -93,7 +93,7 @@ type Post {
   date: String
   author: PostAuthor
   ogImage: PostOgImage
-  body: String
+  body: JSON
 }
 
 type PostDocument implements Node & Document {
@@ -144,7 +144,7 @@ input PostMutation {
   date: String
   author: PostAuthorMutation
   ogImage: PostOgImageMutation
-  body: String
+  body: JSON
 }
 
 schema {

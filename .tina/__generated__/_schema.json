@@ -40,7 +40,7 @@
           ]
         },
         {
-          "type": "string",
+          "type": "datetime",
           "label": "Date",
           "name": "date",
           "namespace": [
@@ -101,12 +101,9 @@
           ]
         },
         {
-          "type": "string",
+          "type": "rich-text",
           "label": "Body",
           "name": "body",
-          "ui": {
-            "component": "textarea"
-          },
           "isBody": true,
           "namespace": [
             "post",
