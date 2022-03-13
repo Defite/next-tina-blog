@@ -6,7 +6,9 @@ coverImage: >-
 date: '2022-03-13T14:00:00.322Z'
 author:
   name: Nikita Makhov
+  picture: /assets/blog/authors/tim.jpeg
+ogImage:
+  url: /assets/blog/hello-world/cover.jpg
 ---
-
 
 This post was written in Tina CMS and will be rendered by Next.js and deployed by Vercel.
