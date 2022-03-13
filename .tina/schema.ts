@@ -24,7 +24,7 @@ export default defineSchema({
           name: 'coverImage',
         },
         {
-          type: 'string',
+          type: 'datetime',
           label: 'Date',
           name: 'date',
         },
@@ -58,12 +58,9 @@ export default defineSchema({
           ],
         },
         {
-          type: 'string',
+          type: 'rich-text',
           label: 'Body',
           name: 'body',
-          ui: {
-            component: "textarea"
-          },
           isBody: true,
         },
       ],
@@ -111,6 +108,10 @@ export const tinaConfig = defineConfig({
        * 3. Add the `RouteMappingPlugin` to the `cms`.
        **/
       cms.plugins.add(RouteMapping);
+    });
+
+    import('react-tinacms-editor').then((field)=> {
+      cms.plugins.add(field.MarkdownFieldPlugin)
     });
   },
 });
