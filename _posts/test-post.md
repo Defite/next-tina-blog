@@ -11,4 +11,6 @@ ogImage:
   url: /assets/blog/hello-world/cover.jpg
 ---
 
-This post was written in Tina CMS and will be rendered by Next.js and deployed by Vercel.
+This **post** was written in [Tina CMS](https://tina.io/) and will be rendered by Next.js and deployed by Vercel.
+
+> This was piece of a cake
